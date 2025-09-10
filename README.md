@@ -1,87 +1,61 @@
-# Advanced-DAE-on-Suicide-Data
-
-
 # Suicide Data Analysis with Advanced DAE
 
-##  About the Dataset
-The dataset contains worldwide suicide records, including:
-- **Country**
-- **Year**
-- **Gender**
-- **Age Group**
-- **Population**
-- **Number of Suicides**
-- **GDP-related data**
-- **Generational groups**
+## 📌 About the Dataset
+The dataset contains worldwide suicide records, including country, year, gender, age group, population, number of suicides, GDP-related information, and generational groups. This dataset provides an opportunity to explore global suicide trends across different demographics, time periods, and socio-economic conditions.
 
-This dataset helps us understand suicide trends across demographics, geography, and time.
-
-## Objective
-The main goal of this project is to explore and analyze global suicide data to:
-- Identify patterns across countries, genders, and age groups.
-- Investigate correlations with socio-economic factors such as GDP.
-- Visualize trends over time to gain insights into public health concerns.
+## 🎯 Objective
+The objective of this project is to perform exploratory data analysis on the suicide dataset to identify patterns across countries, genders, and age groups, as well as to investigate correlations with GDP and visualize long-term trends. Through this analysis, we aim to provide insights into global public health concerns related to suicide.
 
 ---
 
-##  Analyses Performed
+## 🔎 Analyses Performed
 
-### 1. Cleaning the Dataset
-- Removed unnecessary columns, stripped extra spaces from column names, and ensured proper data types.
-- This step prepared the dataset for accurate analysis.
+### Cleaning the Dataset
+The dataset was cleaned by removing unnecessary columns, stripping extra spaces from column names, and converting columns into appropriate data types. This step was crucial to ensure that the analysis was consistent and accurate.
 
-### 2. Number of Suicides Committed in Each Country
-- Aggregated suicides across all years for each country.
-- Identified countries with the highest and lowest suicide counts.
+### Number of Suicides Committed in Each Country
+I analyzed the total number of suicides across different countries to identify which nations had the highest and lowest suicide counts. This gave a clear picture of the global distribution of suicide numbers.  
+![Country-wise suicides] ![Project](https://github.com/Tanvir4247/Advanced-DAE-on-Suicide-Data/blob/aa7ec3469de76a55abf1f7f1a2d8261293826532/Few%20Analysis%20Metrics/High%20Suicides%20Committed%20in%20Each%20Country.png)
 
-### 3. Number of Suicides Genderwise
-- Compared suicides between **male** and **female** globally.
-- Highlighted clear gender-based differences.
+### Number of Suicides Genderwise
+The dataset was explored to compare suicide numbers between males and females. This revealed significant gender differences in suicide rates worldwide.  
+![Gender-wise suicides](images/gender_suicides.png)
 
-### 4. Number of Suicides Genderwise in Each Country
-- Broke down gender-based suicide numbers per country.
-- Useful for country-level gender disparity analysis.
+### Number of Suicides Genderwise in Each Country
+Next, I broke down the gender distribution of suicides within each country. This analysis helped highlight countries with the widest gender disparities in suicide rates.
 
-### 5. Suicides Committed by Various Age Groups
-- Grouped suicides by age brackets.
-- Showed which age ranges are most vulnerable.
+### Suicides Committed by Various Age Groups
+The dataset was grouped into age brackets to determine which age ranges were most vulnerable to suicide. This step showed distinct differences between younger and older populations.  
+![Age group suicides](images/age_group_suicides.png)
 
-### 6. Suicides by Age Groups in Male and Female
-- Compared age-related suicide patterns between genders.
-- Helped reveal whether risks differ by age and gender.
+### Suicides by Age Groups in Male and Female
+Further analysis compared male and female suicide counts within each age group. This gave insights into whether specific age ranges were more at risk for one gender compared to the other.
 
-### 7. Suicides by Age Groups and Gender in Each Country
-- Combined **country**, **age group**, and **gender** to give a detailed suicide profile.
-- Useful for country-specific intervention planning.
+### Suicides by Age Groups and Gender in Each Country
+By combining country, age group, and gender, I created a more detailed suicide profile for each nation. This deeper analysis was particularly useful for identifying country-specific patterns.
 
-### 8. Population and Suicide Rate in Yearly Basics
-- Calculated yearly suicide rates relative to population.
-- Showed how suicide rates change over time.
+### Population and Suicide Rate in Yearly Basics
+I calculated yearly suicide rates relative to population size. This allowed me to observe how suicide rates changed annually on a global scale.
 
-### 9. Suicide Rate in Male and Female Yearly
-- Compared yearly suicide rates between genders.
-- Identified trends and gaps widening/narrowing over time.
+### Suicide Rate in Male and Female Yearly
+The yearly suicide rates were further broken down by gender. This revealed long-term patterns and whether the gap between male and female suicides has increased or decreased over time.
 
-### 10. Suicide Rate Over Time in Each Country
-- Long-term visualization of suicide rate trends for each country.
-- Allowed country-specific comparisons over decades.
+### Suicide Rate Over Time in Each Country
+To understand country-specific trends, I visualized how suicide rates evolved over the years for individual nations. This provided valuable comparisons between countries.
 
-### 11. GDP Evaluation of Each Country Yearly Basis
-- Studied relation between **GDP** and **suicides** per country.
-- Tested the hypothesis that economic factors may influence suicide trends.
+### GDP Evaluation of Each Country Yearly Basis
+I explored the relationship between GDP and suicide numbers on a yearly basis for each country. This analysis aimed to investigate whether economic prosperity (or lack thereof) correlated with suicide rates.  
+![GDP vs Suicide](images/gdp_suicide.png)
 
-### 12. Evaluation of GDP of Albania Throughout the Period
-- Focused on **Albania** as a case study.
-- Examined GDP-suicide relationship across the years.
+### Evaluation of GDP of Albania Throughout the Period
+As a case study, I analyzed Albania’s GDP over time alongside suicide rates. This provided a focused example of how economic factors may impact suicide trends in a single country.
 
-### 13. Generation Evaluation
-- Analyzed suicides across generational cohorts (e.g., Boomers, Gen X, Millennials).
-- Helped identify generational differences in suicide patterns.
+### Generation Evaluation
+The dataset also included generational cohorts such as Boomers, Gen X, and Millennials. I analyzed suicides across these groups to understand how generational differences affected suicide patterns.
 
-### 14. Pairplot Through Age Group
-- Created pairplots of variables across age groups.
-- Visualized relationships between demographic and socio-economic factors.
+### Pairplot Through Age Group
+Finally, I created pairplots to visualize relationships between age groups and other variables. This provided a more visual and multi-dimensional perspective on the data.  
+![Pairplot](images/pairplot.png)
 
 ---
-
 
